@@ -1,0 +1,20 @@
+.login-part{
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(246, 230, 230);
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px 0px black;
+    border-radius: 5px;
+}
+.sub-button{
+    background-color: blue;
+    color: white;
+    padding: 5px 30px;
+    margin-top: 20px;
+    
+}
+@media screen and (max-width: 600px){
+    .login-part{
+        max-width: 300px;
+    }
+}

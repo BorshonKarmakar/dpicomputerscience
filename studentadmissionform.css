@@ -1,0 +1,63 @@
+.form-part{
+    max-width: 1000px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px rgb(35, 35, 35,.5);
+}
+.saf{
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.safcst{
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 10px; 
+    background-color: antiquewhite;
+    color: rgb(132, 95, 95);
+}
+.form-part form table{
+    text-align: right;
+    font-size: 20px;
+}
+.form-part form input{
+    border: 1px solid rgb(124, 107, 107);
+}
+@media screen and (max-width:992px){
+    .saf{
+        font-size: 20px;
+    }
+    .safcst{
+        font-size: 15px;
+    }
+    .form-part form table{
+        font-size: 15px;
+    }
+    .form-part form input{
+        font-size: 15px;
+    }
+    .form-part form select{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:762px){
+    .saf{
+        font-size: 15px;
+    }
+    .safcst{
+        font-size: 12px;
+    }
+    .form-part{
+        max-width: 600px;
+    }
+    .form-part form table{
+        font-size: 12px;
+    }
+    .form-part form input{
+        font-size: 12px;
+    }
+    .form-part form select{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science and Technology</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* লোগো ও টেক্সটের মাঝে কিছু গ্যাপ যোগ করবে */
+}
+
+        nav { background: #34495e; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; }
+        .container { padding: 20px; text-align: center; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        @media screen and (max-width: 600px) {
+    .hcst {
+        font-size: 20px !important;
+    }
+}
+   
+
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Dpi logo.png" style="height: 100px; width: 250px;" alt="">
+        <h1 class="hcst">Computer Science and Technology</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <h3 class="navbar-brand">CST Department</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" href="#courses">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teacher.html">Teachers</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" id="navbardropdown" data-bs-toggle="dropdown" href="#contact">Login</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a href="http://localhost/Php/Computer%20Science%20And%20Technology/department.php" class="dropdown-item">Department login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Admission</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="http://localhost/Php/Computer%20Science%20And%20Technology/studentadmiss.php">Student Admission Form</a></li>
+                            <li><a href="http://localhost/Php/Computer%20Science%20And%20Technology/searchroll.php" class="dropdown-item">Search Previous form</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" id="navbardropdown" data-bs-toggle="dropdown" href="#">Routine</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a href="#" class="dropdown-item">১ম পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">২য় পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">৩য় পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">৪র্থ পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">৫ম পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">৬ষ্ঠ পর্ব</a></li>
+                            <li><a href="#" class="dropdown-item">৭ম পর্ব</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="3 5 7 ছাত্র ছাত্রী তালিকা 2য় শিফট.pdf">Student list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/Php/Computer%20Science%20And%20Technology/midterm.php">Mid term result</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="saf.html" class="nav-link">SAF Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+      
+      <!-- Offcanvas Menu -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Computer Science And Technology</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>ডিজিটাল বাংলাদেশ বিনির্মাণে কম্পিউটার সায়েন্স অ্যান্ড টেকনোলজির অবদান অনস্বীকার্য। কম্পিউটার হার্ডওয়ার, সফটওয়্যার ও নেটওয়ার্ক সম্পর্কে জ্ঞান অর্জনের মাধ্যমে এই টেকনোলজির শিক্ষার্থীরা ব্যাংক-বীমা ও আর্থিক প্রতিষ্ঠানসহ বিভিন্ন সরকারি-বেসরকারি চাকুরীতে নিজেদের আত্ননিয়োগ করে এবং ফ্রিল্যান্সিং এর মাধ্যমে বৈদেশিক মুদ্রা অর্জনে গুরুত্বপূর্ণ ভূমিকা পালন করে। এছাড়াও আত্ম-কর্মসংস্থানের মাধ্যমে দেশ ও জাতির উন্নতি সাধনে কম্পিউটার সায়েন্স অ্যান্ড টেকনোলজি অগ্রণী ভূমিকা পালন করে।</p><br>
+          <b>কম্পিউটার সায়েন্স অ্যান্ড টেকনোলজি এর ল্যাবসমূহঃ</b>
+          <ol>
+            <li>সফটওয়্যার ল্যাব-১</li>
+            <li>সফটওয়্যার ল্যাব-২</li>
+            <li>নেটওয়ার্ক ল্যাব</li>
+            <li>আইওটি ল্যাব</li>
+            <li>মাইক্রোপ্রসেসর অ্যান্ড মাইক্রোকন্ট্রোলার ল্যাব(MPMC Lab)</li>
+          </ol>
+          
+
+        </div>
+      </div>
+    <!-- carousel -->
+     <div class="container">
+        <div class="carousel slide" data-bs-ride="caorusel" id="carousel">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                <button  data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button  data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button  data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="475549796_1348406236291772_588369444280148039_n.jpg" class="d-block w-100" alt="img-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Department of Computer Science And Technology</h5>
+                        <p>Dinajpur Polytechnic Institute</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images (1).jpeg" class="d-block w-100" alt="img-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Development</h5>
+                        <p>Hardware and software</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="What-is-Cyber-Security.jpg" class="d-block w-100" alt="img-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cyber Security and Ethics</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="4968_source_1920x1080_2023-08-12-132353_nvmd.jpg" class="d-block w-100" alt="img-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Digital Electronics</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+     </div>
+
+    <!-- নোটিশ বোর্ড -->
+     <div class="container">
+        <div class="notice-board">
+                <h2 class="notice-title">📢 নোটিশ বোর্ড</h2>
+                <div class="notice-list">
+                     <!-- -- -->
+                    <div class="notice-item">
+                        <h5>জুমাতুল বিদা, পবিত্র শব-ই-কদর, পবিত্র ঈদ-উল-ফিতর উপলক্ষে ইন্সটিটিউট বন্ধের বিজ্ঞপ্তি</h5>
+                        <p>তারিখঃ২৭ মার্চ, ২০২৫</p>
+                        <a href="2025-03-27-12-18-bcba0affca2aaa60e52b14ff5f72c1ba.pdf" class="btn btn-danger btn-sm download-btn" download>📥 PDF ডাউনলোড</a>
+                    </div>
+                    <!-- -- -->
+                    <div class="notice-item">
+                        <h5>ডিপ্লোমা-ইন-ইঞ্জিনিয়ারিং পরীক্ষা-২০২৪ এর ফরম ফিলাপ সংক্রান্ত বিজ্ঞপ্তি</h5>
+                        <p>তারিখঃ ২৫ মার্চ, ২০২৫</p>
+                        <a href="./10023.pdf" class="btn btn-danger btn-sm download-btn" download>📥 PDF ডাউনলোড</a>
+                    </div>
+                    <!-- -- -->
+                    <div class="notice-item">
+                        <h5>উপবৃত্তি সংক্রান্ত নোটিশ</h5>
+                        <p>তারিখঃ ১৬ মার্চ, ২০২৫</p>
+                        <a href="./2025-03-16-09-40-929a1ce73e617cfefa45b59db90694a8.pdf" class="btn btn-danger btn-sm download-btn" download>📥 PDF ডাউনলোড</a>
+                    </div>
+                    <!-- -- -->
+                    <div class="notice-item">
+                        <h5>১ম,৩য়,৫ম ও ৭ম পর্বের পর্বমধ্য পরীক্ষার রুটিন প্রকাশিত।</h5>
+                        <p>তারিখঃ ১০ মার্চ, ২০২৫</p>
+                        <a href="mid routine.jpg" class="btn btn-danger btn-sm download-btn" download>📥 PDF ডাউনলোড</a>
+                    </div>
+                </div>
+        </div>
+     </div>
+
+     <!-- speech of department head -->
+      <div class="speech row mx-auto">
+          <h3 class="col-sm-12">বিভাগীয় প্রধানগণের বাণী</h3>
+          <hr>
+        <div class="speech-first-shift mt-3 col-md-6 col-sm-12">
+           <img src="ci sayem.jpg" class="mx-auto d-block" style="align-items: center;"  alt="">
+           <p class="mt-3" style="text-align: left;">
+            প্রযুক্তির দ্রুত বিকাশের এই যুগে কম্পিউটার সায়েন্স এন্ড টেকনোলজি শিক্ষার গুরুত্ব অপরিসীম। দিনাজপুর পলিটেকনিক ইনস্টিটিউটের কম্পিউটার সায়েন্স এন্ড টেকনোলজি বিভাগ দক্ষ ও যোগ্য প্রযুক্তি পেশাজীবী তৈরি করতে প্রতিশ্রুতিবদ্ধ।
+            
+            আমাদের লক্ষ্য হলো শিক্ষার্থীদের আধুনিক প্রযুক্তি, প্রোগ্রামিং, নেটওয়ার্কিং, সফটওয়্যার ডেভেলপমেন্ট ও অন্যান্য প্রযুক্তিগত দক্ষতা অর্জনে সহায়তা করা। দক্ষ শিক্ষকমণ্ডলী, উন্নত ল্যাব সুবিধা এবং বাস্তবমুখী শিক্ষাদানের মাধ্যমে আমরা শিক্ষার্থীদের কর্মসংস্থান ও উচ্চশিক্ষার জন্য প্রস্তুত করছি।
+            
+            আমি আশা করি, এই বিভাগে অধ্যয়নরত প্রতিটি শিক্ষার্থী নতুন প্রযুক্তির সাথে তাল মিলিয়ে নিজেদের গড়ে তুলবে এবং দেশ ও বিশ্বের তথ্যপ্রযুক্তি খাতে গুরুত্বপূর্ণ ভূমিকা রাখবে।</p>
+            <b style="text-align: left; margin-top: 10px;">[আবু সায়েম মোঃ জেকেরুল হক] <br>
+                চীফ ইন্সট্রাক্টর(টেক/কম্পিউটার), ১ম শিফট,<br>
+                কম্পিউটার সায়েন্স এন্ড টেকনোলজি,<br>
+                দিনাজপুর পলিটেকনিক ইনস্টিটিউট</b>
+        </div>
+        <div class="speech-second-shift mt-3 col-md-6 col-sm-12">
+            <img src="ci shamim shultan.jpg" class="mx-auto d-block" alt="">
+            <p class="mt-3" style="text-align: left;">
+                তথ্যপ্রযুক্তির এই দ্রুত অগ্রগতির যুগে কম্পিউটার সায়েন্স এন্ড টেকনোলজি একটি অত্যন্ত গুরুত্বপূর্ণ ও সম্ভাবনাময় ক্ষেত্র। দিনাজপুর পলিটেকনিক ইনস্টিটিউটের কম্পিউটার সায়েন্স এন্ড টেকনোলজি বিভাগ প্রযুক্তিনির্ভর সমাজের চাহিদা পূরণে দক্ষ জনশক্তি তৈরি করতে অগ্রণী ভূমিকা পালন করে যাচ্ছে।
+
+                আমাদের বিভাগের মূল লক্ষ্য হলো শিক্ষার্থীদের আধুনিক প্রযুক্তি, প্রোগ্রামিং, নেটওয়ার্কিং, ডাটাবেজ ম্যানেজমেন্ট, সফটওয়্যার ডেভেলপমেন্টসহ তথ্যপ্রযুক্তির বিভিন্ন ক্ষেত্রে দক্ষ করে গড়ে তোলা। নবীন প্রযুক্তির সাথে তাল মিলিয়ে চলার জন্য আমাদের বিভাগ সর্বদা আপডেটেড পাঠ্যক্রম ও ব্যবহারিক প্রশিক্ষণের ওপর গুরুত্ব দেয়।
+                
+                আমাদের দক্ষ ও অভিজ্ঞ শিক্ষকগণ শিক্ষার্থীদের হাতে-কলমে শেখানোর মাধ্যমে তাদেরকে প্রযুক্তিবান্ধব, সৃজনশীল ও উদ্ভাবনী দক্ষতা অর্জনে সহায়তা করেন। আমরা বিশ্বাস করি, প্রযুক্তির সঠিক ব্যবহার নিশ্চিত করতে পারলেই ভবিষ্যৎ হবে আরও সমৃদ্ধ।
+                
+                আমি আশা করি, আমাদের শিক্ষার্থীরা নতুন প্রযুক্তির মাধ্যমে নিজেদের দক্ষতা বিকশিত করবে এবং দেশের তথ্যপ্রযুক্তি খাতে গুরুত্বপূর্ণ অবদান রাখবে।</p>
+             <b style="text-align: left; margin-top: 10px;">[শামীম সুলতান] <br>
+                 চীফ ইন্সট্রাক্টর(টেক/কম্পিউটার), ২য় শিফট,<br>
+                 কম্পিউটার সায়েন্স এন্ড টেকনোলজি,<br>
+                 দিনাজপুর পলিটেকনিক ইনস্টিটিউট</b>
+         </div>
+      </div>
+
+    <footer>
+        <p>&copy; 2025 Computer Science and Technology Department</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

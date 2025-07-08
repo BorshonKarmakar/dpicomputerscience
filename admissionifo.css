@@ -1,0 +1,53 @@
+.print-button button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.print-button button::after{
+    content: '';
+    height: 50px;
+    width: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(57, 57, 218);
+    transition: .5s;
+    opacity: 1;
+}
+.print-button button:hover::after{
+    width: 100%;
+    opacity: -1;
+}
+.a4-page{
+    position: relative;
+}
+
+.a4-page .header-img{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+table {
+    margin-top: 5px;
+    width: 100%;
+}
+table tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.fw{
+    width: 150px;
+    font-size: 13px;
+}
+.fr{
+    width: 100px;
+    font-size: 13px;
+}
+table tr td{
+    font-size: 15px;
+}

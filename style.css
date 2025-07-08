@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.notice-board{
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.notice-title{
+    text-align: center;
+    font-weight: bold;
+    color: #d9534f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.notice-list{
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.notice-item{
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.download-btn{
+    float: right;
+}
+.carousel-inner .carousel-item img{
+    height: 400px;
+}
+@media screen and (max-width:600px){
+    .carousel-inner .carousel-item img{
+        height: 300px;
+    }
+}
+.speech{
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px rgb(40, 38, 38,.5);
+    max-width: 1000px;
+}
+.speech h3{
+    text-align: center;
+}
+.speech-first-shift img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.speech-second-shift{
+    border-left: 2px solid gray;
+}
+.speech-second-shift img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.speech-first-shift p{
+    font-size: 20px;
+}
+.speech-second-shift p{
+    font-size: 20px;
+}
+@media screen and (max-width:900px){
+    .speech-first-shift img{
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+    }
+    .speech-first-shift p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    .speech-first-shift img{
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+    .speech-first-shift p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:900px){
+    .speech-first-shift{
+        border-bottom: 2px solid gray;
+    }
+    .speech-second-shift img{
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+    }
+    .speech-second-shift p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    .speech-second-shift{
+        border: none;
+    }
+    .speech-second-shift img{
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+    .speech-second-shift p{
+        font-size: 15px;
+    }
+}
